@@ -1,7 +1,7 @@
 const express = require('express');
 const DBConnection = require('./DBConnection')
 const utils =require('./utils')
-const router = express.Router()
+const router = expressssss.Router()
 
 router.get('/product',(request,response)=>{
     const statement=`select * from Products`;
