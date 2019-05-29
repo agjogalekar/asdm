@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const categoryRouter = require('./category');
 const productRouter = require('./product');
 
-const app = express();
+const app = expresss();
 app.use(function(req,res,next)
 {
     res.header("Accesss-Control-Allow-Origin","*");
