@@ -14,3 +14,5 @@ router.get('/product',(request,response)=>{
     });
 
 })
+
+console;
